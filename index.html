@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/weather.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+
+<body>
+    <nav>
+        <label for="hamburger-btn">
+            <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </label>
+        <input type="checkbox" id="hamburger-btn">
+        <div class="notice">
+            <span>Weather Forecast</span>
+            <div class="local"></div>
+        </div>
+        <div class="btn">
+            <button id="btn-all">全區</button>
+            <button id="btn-north">北部</button>
+            <button id="btn-middle">中部</button>
+            <button id="btn-south">南部</button>
+            <button id="btn-east">宜花東</button>
+            <button id="btn-island">離島</button>
+        </div>
+    </nav>
+    <section>
+        <div class="region"></div>
+
+    </section>
+
+    <script src="./js/weather-sort.js"></script>
+
+
+</body>
+
+</html>
