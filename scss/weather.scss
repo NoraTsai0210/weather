@@ -32,7 +32,7 @@ body {
             // position: relative;
         }
 
-        .notice{
+        .notice {
             margin-right: auto;
             width: calc(100% - (100px * 6));
             display: flex;
@@ -46,6 +46,7 @@ body {
                 flex-direction: row;
                 justify-content: space-between;
             }
+
             @media screen and (max-width:680px) {
                 display: flex;
                 flex-direction: column;
@@ -61,25 +62,27 @@ body {
                 color: brown;
                 white-space: nowrap;
                 letter-spacing: 2px;
-    
+
                 @media screen and (max-width:1128px) {
                     margin-right: auto;
                 }
             }
-                @media screen and (max-width:680px) {
-                    text-align: center;
-                    font-size: 45px;
-                    width: 100%;
-                }
-    
-            }
-            .local{
-                font-size: 18px; 
-                white-space: nowrap;
+
+            @media screen and (max-width:680px) {
                 text-align: center;
-                margin-top: 5px;
-                font-weight: 700;
-                color: rgb(37, 36, 36);
+                font-size: 45px;
+                width: 100%;
+            }
+
+        }
+
+        .local {
+            font-size: 18px;
+            white-space: nowrap;
+            text-align: center;
+            margin-top: 5px;
+            font-weight: 700;
+            color: rgb(37, 36, 36);
         }
 
 
@@ -132,7 +135,7 @@ body {
 
             @media screen and (max-width:680px) {
 
-                &:checked ~div {
+                &:checked~div {
                     display: flex;
                 }
             }
@@ -146,6 +149,7 @@ body {
         @media screen and (max-width:1128px) {
             margin-top: 5px;
         }
+
         @media screen and (max-width: 680px) {
             width: 95%;
             display: none;
@@ -174,7 +178,7 @@ body {
         font-style: italic;
         z-index: 1;
 
-        &:active{
+        &:active {
             background-color: rgb(209, 204, 194);
 
         }
@@ -197,7 +201,7 @@ body {
         }
     }
 
-    
+
 
 
 }
@@ -205,6 +209,7 @@ body {
 section {
     margin-top: 120px;
     width: 100%;
+
     @media screen and (max-width: 90px) {
         margin-top: 80px;
     }
@@ -251,16 +256,18 @@ section {
                 margin-right: 5px 5px;
             }
 
-            .weather{
+            .weather {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
                 justify-content: space-around;
 
-                span{
-                    font-size: 16px;
-                    line-height: 60px;
+                span {
+                    font-size: 15px;
+                    line-height: 25px;
+                    padding-left: 1px;
                 }
+
                 img {
                     height: 60px;
                 }
@@ -328,20 +335,21 @@ section {
                         padding-bottom: 5px;
 
                     }
-                    .weather-now{
+
+                    .weather-now {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: nowrap;
                         justify-content: center;
-        
-                        
+
+
                         img {
                             width: 45px;
                             // height: 30px;
                         }
                     }
-                    
-                   
+
+
                 }
 
                 .flip-card-back {
@@ -367,13 +375,14 @@ section {
                     p {
                         padding-bottom: 5px;
                     }
-                    .weather-future{
+
+                    .weather-future {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: nowrap;
                         justify-content: center;
-        
-                        
+
+
                         img {
                             width: 45px;
                             // height: 30px;
@@ -384,5 +393,5 @@ section {
         }
     }
 
-    
+
 }
