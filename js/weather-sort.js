@@ -346,7 +346,7 @@ function arrange_cities() {
             arrange_cities_flip();
         });
         let btn_south = document.querySelector('#btn-south');
-        btn_middle.addEventListener('click', function () {
+        btn_south.addEventListener('click', function () {
             region.innerHTML = '';
             nowCities = cities[3];
             arrange_cities_flip();
